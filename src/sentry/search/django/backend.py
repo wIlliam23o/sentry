@@ -360,6 +360,7 @@ class DjangoSearchBackend(SearchBackend):
                 ),
             ),
             'active_at': SearchFilterScalarCondition('active_at'),
+            'first_seen': SearchFilterScalarCondition('first_seen'),
         }
 
         message = [
