@@ -724,6 +724,7 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                 value={Array []}
                               >
                                 <StyledProjectSelector
+                                  hasChanges={false}
                                   multi={false}
                                   multiProjects={Array []}
                                   onChange={[Function]}
@@ -779,6 +780,7 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                 >
                                   <withProjects(ProjectSelector)
                                     className="css-iw79rr-StyledProjectSelector ewlipse0"
+                                    hasChanges={false}
                                     multi={false}
                                     multiProjects={Array []}
                                     onChange={[Function]}
@@ -834,6 +836,7 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                   >
                                     <ProjectSelector
                                       className="css-iw79rr-StyledProjectSelector ewlipse0"
+                                      hasChanges={false}
                                       multi={false}
                                       multiProjects={Array []}
                                       onChange={[Function]}
@@ -1016,7 +1019,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                           onKeyDown={[Function]}
                                                           onMouseEnter={[Function]}
                                                           onMouseLeave={[Function]}
-                                                          onSubmit={[Function]}
                                                           style={
                                                             Object {
                                                               "outline": "none",
@@ -1041,7 +1043,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                             onKeyDown={[Function]}
                                                             onMouseEnter={[Function]}
                                                             onMouseLeave={[Function]}
-                                                            onSubmit={[Function]}
                                                             style={
                                                               Object {
                                                                 "outline": "none",
@@ -1067,7 +1068,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                               onKeyDown={[Function]}
                                                               onMouseEnter={[Function]}
                                                               onMouseLeave={[Function]}
-                                                              onSubmit={[Function]}
                                                               style={
                                                                 Object {
                                                                   "outline": "none",
@@ -1078,6 +1078,7 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                               <StyledHeaderItem
                                                                 active={false}
                                                                 className="css-12jjx2u-StyledHeaderItem ewlipse1"
+                                                                hasChanges={false}
                                                                 hasSelected={false}
                                                                 innerRef={null}
                                                                 isOpen={false}
@@ -1148,13 +1149,10 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                                     </div>
                                                                   </Content>
                                                                   <StyledChevron
-                                                                    hasChanges={false}
                                                                     isOpen={false}
-                                                                    onClick={[Function]}
                                                                   >
                                                                     <div
-                                                                      className="css-ft4nwy-StyledChevron enk2k7v4"
-                                                                      onClick={[Function]}
+                                                                      className="css-1dsiezd-StyledChevron enk2k7v4"
                                                                     >
                                                                       <InlineSvg
                                                                         src="icon-chevron-down"
@@ -1535,6 +1533,7 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                           >
                                                             <StyledHeaderItem
                                                               className="css-22y332-StyledHeaderItem e1gsuvme0"
+                                                              hasChanges={false}
                                                               hasSelected={false}
                                                               innerRef={[Function]}
                                                               isOpen={false}
@@ -1605,13 +1604,10 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                                   </div>
                                                                 </Content>
                                                                 <StyledChevron
-                                                                  hasChanges={false}
                                                                   isOpen={false}
-                                                                  onClick={[Function]}
                                                                 >
                                                                   <div
-                                                                    className="css-ft4nwy-StyledChevron enk2k7v4"
-                                                                    onClick={[Function]}
+                                                                    className="css-1dsiezd-StyledChevron enk2k7v4"
                                                                   >
                                                                     <InlineSvg
                                                                       src="icon-chevron-down"
@@ -1807,6 +1803,7 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                           >
                                             <StyledHeaderItem
                                               className="css-22y332-StyledHeaderItem e1u8612l1"
+                                              hasChanges={false}
                                               hasSelected={false}
                                               innerRef={[Function]}
                                               isOpen={false}
@@ -1877,13 +1874,10 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                   </div>
                                                 </Content>
                                                 <StyledChevron
-                                                  hasChanges={false}
                                                   isOpen={false}
-                                                  onClick={[Function]}
                                                 >
                                                   <div
-                                                    className="css-ft4nwy-StyledChevron enk2k7v4"
-                                                    onClick={[Function]}
+                                                    className="css-1dsiezd-StyledChevron enk2k7v4"
                                                   >
                                                     <InlineSvg
                                                       src="icon-chevron-down"
