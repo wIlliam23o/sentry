@@ -15,7 +15,8 @@ class StreamFilters extends React.Component {
     organization: SentryTypes.Organization,
 
     searchId: PropTypes.string,
-    savedSearchList: PropTypes.array.isRequired,
+    savedSearchList: PropTypes.arrayOf(SentryTypes.SavedSearch),
+    savedSearch: SentryTypes.SavedSearch,
 
     sort: PropTypes.string,
     query: PropTypes.string,
@@ -50,6 +51,7 @@ class StreamFilters extends React.Component {
     const {
       organization,
       projectId,
+      savedSearch,
       searchId,
       queryCount,
       queryMaxCount,
@@ -106,6 +108,7 @@ class StreamFilters extends React.Component {
               </div>
 
               <SearchBar
+                savedSearch={savedSearch}
                 orgId={organization.slug}
                 query={query || ''}
                 onSearch={onSearch}
