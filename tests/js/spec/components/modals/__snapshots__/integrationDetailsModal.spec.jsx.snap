@@ -420,7 +420,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
           <Component
             aria-disabled={false}
             aria-label="Cancel"
-            className="css-dkprmi-StyledButton-getColors eqrebog0"
+            className="css-dkprmi-StyledButton-getColors e12ma6z0"
             onClick={[Function]}
             role="button"
             size="small"
@@ -428,7 +428,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
             <button
               aria-disabled={false}
               aria-label="Cancel"
-              className="css-dkprmi-StyledButton-getColors eqrebog0"
+              className="css-dkprmi-StyledButton-getColors e12ma6z0"
               onClick={[Function]}
               role="button"
               size="small"
@@ -437,11 +437,11 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
                 size="small"
               >
                 <Component
-                  className="css-7ui8bl-ButtonLabel eqrebog1"
+                  className="css-7ui8bl-ButtonLabel e12ma6z1"
                   size="small"
                 >
                   <span
-                    className="css-7ui8bl-ButtonLabel eqrebog1"
+                    className="css-7ui8bl-ButtonLabel e12ma6z1"
                   >
                     Cancel
                   </span>
@@ -740,7 +740,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
                           <Component
                             aria-disabled={false}
                             aria-label="Add Installation"
-                            className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                            className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                             onClick={[Function]}
                             role="button"
                             size="small"
@@ -753,7 +753,7 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
                             <button
                               aria-disabled={false}
                               aria-label="Add Installation"
-                              className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                              className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                               onClick={[Function]}
                               role="button"
                               size="small"
@@ -768,12 +768,12 @@ exports[`IntegrationDetailsModal renders simple integration 1`] = `
                                 size="small"
                               >
                                 <Component
-                                  className="css-7ui8bl-ButtonLabel eqrebog1"
+                                  className="css-7ui8bl-ButtonLabel e12ma6z1"
                                   priority="primary"
                                   size="small"
                                 >
                                   <span
-                                    className="css-7ui8bl-ButtonLabel eqrebog1"
+                                    className="css-7ui8bl-ButtonLabel e12ma6z1"
                                   >
                                     Add Installation
                                   </span>

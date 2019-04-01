@@ -89,7 +89,7 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                             <Component
                               aria-disabled={false}
                               aria-label="Create New Application"
-                              className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                              className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                               onClick={[Function]}
                               role="button"
                               size="small"
@@ -98,7 +98,7 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                               <Link
                                 aria-disabled={false}
                                 aria-label="Create New Application"
-                                className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                 onClick={[Function]}
                                 onlyActiveOnIndex={false}
                                 role="button"
@@ -109,7 +109,7 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                                 <a
                                   aria-disabled={false}
                                   aria-label="Create New Application"
-                                  className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                  className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                   onClick={[Function]}
                                   role="button"
                                   size="small"
@@ -120,24 +120,24 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                                     size="small"
                                   >
                                     <Component
-                                      className="css-7ui8bl-ButtonLabel eqrebog1"
+                                      className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       priority="primary"
                                       size="small"
                                     >
                                       <span
-                                        className="css-7ui8bl-ButtonLabel eqrebog1"
+                                        className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       >
                                         <Icon
                                           hasChildren={true}
                                           size="small"
                                         >
                                           <Component
-                                            className="css-1vdnsie-Icon eqrebog2"
+                                            className="css-1vdnsie-Icon e12ma6z2"
                                             hasChildren={true}
                                             size="small"
                                           >
                                             <span
-                                              className="css-1vdnsie-Icon eqrebog2"
+                                              className="css-1vdnsie-Icon e12ma6z2"
                                               size="small"
                                             >
                                               <StyledInlineSvg
@@ -145,18 +145,18 @@ exports[`Organization Developer Settings when no Apps exist displays empty state
                                                 src="icon-circle-add"
                                               >
                                                 <InlineSvg
-                                                  className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                  className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                   size="12px"
                                                   src="icon-circle-add"
                                                 >
                                                   <StyledSvg
-                                                    className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                    className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                     height="12px"
                                                     viewBox={Object {}}
                                                     width="12px"
                                                   >
                                                     <svg
-                                                      className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                      className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                       height="12px"
                                                       viewBox={Object {}}
                                                       width="12px"
@@ -350,7 +350,7 @@ exports[`Organization Developer Settings with published apps trash button is dis
                             <Component
                               aria-disabled={false}
                               aria-label="Create New Application"
-                              className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                              className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                               onClick={[Function]}
                               role="button"
                               size="small"
@@ -359,7 +359,7 @@ exports[`Organization Developer Settings with published apps trash button is dis
                               <Link
                                 aria-disabled={false}
                                 aria-label="Create New Application"
-                                className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                 onClick={[Function]}
                                 onlyActiveOnIndex={false}
                                 role="button"
@@ -370,7 +370,7 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                 <a
                                   aria-disabled={false}
                                   aria-label="Create New Application"
-                                  className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                  className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                   onClick={[Function]}
                                   role="button"
                                   size="small"
@@ -381,24 +381,24 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                     size="small"
                                   >
                                     <Component
-                                      className="css-7ui8bl-ButtonLabel eqrebog1"
+                                      className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       priority="primary"
                                       size="small"
                                     >
                                       <span
-                                        className="css-7ui8bl-ButtonLabel eqrebog1"
+                                        className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       >
                                         <Icon
                                           hasChildren={true}
                                           size="small"
                                         >
                                           <Component
-                                            className="css-1vdnsie-Icon eqrebog2"
+                                            className="css-1vdnsie-Icon e12ma6z2"
                                             hasChildren={true}
                                             size="small"
                                           >
                                             <span
-                                              className="css-1vdnsie-Icon eqrebog2"
+                                              className="css-1vdnsie-Icon e12ma6z2"
                                               size="small"
                                             >
                                               <StyledInlineSvg
@@ -406,18 +406,18 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                                 src="icon-circle-add"
                                               >
                                                 <InlineSvg
-                                                  className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                  className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                   size="12px"
                                                   src="icon-circle-add"
                                                 >
                                                   <StyledSvg
-                                                    className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                    className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                     height="12px"
                                                     viewBox={Object {}}
                                                     width="12px"
                                                   >
                                                     <svg
-                                                      className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                      className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                       height="12px"
                                                       viewBox={Object {}}
                                                       width="12px"
@@ -736,7 +736,7 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                             >
                                               <Component
                                                 aria-disabled={true}
-                                                className="tip tip css-1ujzp8g-StyledButton-getColors eqrebog0"
+                                                className="tip tip css-1ujzp8g-StyledButton-getColors e12ma6z0"
                                                 href={null}
                                                 onClick={[Function]}
                                                 role="button"
@@ -746,7 +746,7 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                               >
                                                 <button
                                                   aria-disabled={true}
-                                                  className="tip tip css-1ujzp8g-StyledButton-getColors eqrebog0"
+                                                  className="tip tip css-1ujzp8g-StyledButton-getColors e12ma6z0"
                                                   href={null}
                                                   onClick={[Function]}
                                                   role="button"
@@ -758,23 +758,23 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                                     size="small"
                                                   >
                                                     <Component
-                                                      className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                      className="css-7ui8bl-ButtonLabel e12ma6z1"
                                                       size="small"
                                                     >
                                                       <span
-                                                        className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                        className="css-7ui8bl-ButtonLabel e12ma6z1"
                                                       >
                                                         <Icon
                                                           hasChildren={false}
                                                           size="small"
                                                         >
                                                           <Component
-                                                            className="css-ljhpxy-Icon eqrebog2"
+                                                            className="css-ljhpxy-Icon e12ma6z2"
                                                             hasChildren={false}
                                                             size="small"
                                                           >
                                                             <span
-                                                              className="css-ljhpxy-Icon eqrebog2"
+                                                              className="css-ljhpxy-Icon e12ma6z2"
                                                               size="small"
                                                             >
                                                               <StyledInlineSvg
@@ -782,18 +782,18 @@ exports[`Organization Developer Settings with published apps trash button is dis
                                                                 src="icon-trash"
                                                               >
                                                                 <InlineSvg
-                                                                  className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                                  className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                                   size="12px"
                                                                   src="icon-trash"
                                                                 >
                                                                   <StyledSvg
-                                                                    className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                                    className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                                     height="12px"
                                                                     viewBox={Object {}}
                                                                     width="12px"
                                                                   >
                                                                     <svg
-                                                                      className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                                      className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                                       height="12px"
                                                                       viewBox={Object {}}
                                                                       width="12px"
@@ -928,7 +928,7 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                             <Component
                               aria-disabled={false}
                               aria-label="Create New Application"
-                              className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                              className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                               onClick={[Function]}
                               role="button"
                               size="small"
@@ -937,7 +937,7 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                               <Link
                                 aria-disabled={false}
                                 aria-label="Create New Application"
-                                className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                 onClick={[Function]}
                                 onlyActiveOnIndex={false}
                                 role="button"
@@ -948,7 +948,7 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                                 <a
                                   aria-disabled={false}
                                   aria-label="Create New Application"
-                                  className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                  className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                   onClick={[Function]}
                                   role="button"
                                   size="small"
@@ -959,24 +959,24 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                                     size="small"
                                   >
                                     <Component
-                                      className="css-7ui8bl-ButtonLabel eqrebog1"
+                                      className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       priority="primary"
                                       size="small"
                                     >
                                       <span
-                                        className="css-7ui8bl-ButtonLabel eqrebog1"
+                                        className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       >
                                         <Icon
                                           hasChildren={true}
                                           size="small"
                                         >
                                           <Component
-                                            className="css-1vdnsie-Icon eqrebog2"
+                                            className="css-1vdnsie-Icon e12ma6z2"
                                             hasChildren={true}
                                             size="small"
                                           >
                                             <span
-                                              className="css-1vdnsie-Icon eqrebog2"
+                                              className="css-1vdnsie-Icon e12ma6z2"
                                               size="small"
                                             >
                                               <StyledInlineSvg
@@ -984,18 +984,18 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                                                 src="icon-circle-add"
                                               >
                                                 <InlineSvg
-                                                  className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                  className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                   size="12px"
                                                   src="icon-circle-add"
                                                 >
                                                   <StyledSvg
-                                                    className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                    className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                     height="12px"
                                                     viewBox={Object {}}
                                                     width="12px"
                                                   >
                                                     <svg
-                                                      className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                      className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                       height="12px"
                                                       viewBox={Object {}}
                                                       width="12px"
@@ -1465,14 +1465,14 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                                                   >
                                                     <Component
                                                       aria-disabled={false}
-                                                      className="css-dkprmi-StyledButton-getColors eqrebog0"
+                                                      className="css-dkprmi-StyledButton-getColors e12ma6z0"
                                                       onClick={[Function]}
                                                       role="button"
                                                       size="small"
                                                     >
                                                       <button
                                                         aria-disabled={false}
-                                                        className="css-dkprmi-StyledButton-getColors eqrebog0"
+                                                        className="css-dkprmi-StyledButton-getColors e12ma6z0"
                                                         onClick={[Function]}
                                                         role="button"
                                                         size="small"
@@ -1481,23 +1481,23 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                                                           size="small"
                                                         >
                                                           <Component
-                                                            className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                            className="css-7ui8bl-ButtonLabel e12ma6z1"
                                                             size="small"
                                                           >
                                                             <span
-                                                              className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                              className="css-7ui8bl-ButtonLabel e12ma6z1"
                                                             >
                                                               <Icon
                                                                 hasChildren={false}
                                                                 size="small"
                                                               >
                                                                 <Component
-                                                                  className="css-ljhpxy-Icon eqrebog2"
+                                                                  className="css-ljhpxy-Icon e12ma6z2"
                                                                   hasChildren={false}
                                                                   size="small"
                                                                 >
                                                                   <span
-                                                                    className="css-ljhpxy-Icon eqrebog2"
+                                                                    className="css-ljhpxy-Icon e12ma6z2"
                                                                     size="small"
                                                                   >
                                                                     <StyledInlineSvg
@@ -1505,18 +1505,18 @@ exports[`Organization Developer Settings with unpublished apps displays all Apps
                                                                       src="icon-trash"
                                                                     >
                                                                       <InlineSvg
-                                                                        className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                                        className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                                         size="12px"
                                                                         src="icon-trash"
                                                                       >
                                                                         <StyledSvg
-                                                                          className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                                          className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                                           height="12px"
                                                                           viewBox={Object {}}
                                                                           width="12px"
                                                                         >
                                                                           <svg
-                                                                            className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                                            className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                                             height="12px"
                                                                             viewBox={Object {}}
                                                                             width="12px"
@@ -1706,7 +1706,7 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                             <Component
                               aria-disabled={false}
                               aria-label="Create New Application"
-                              className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                              className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                               onClick={[Function]}
                               role="button"
                               size="small"
@@ -1715,7 +1715,7 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                               <Link
                                 aria-disabled={false}
                                 aria-label="Create New Application"
-                                className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                 onClick={[Function]}
                                 onlyActiveOnIndex={false}
                                 role="button"
@@ -1726,7 +1726,7 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                 <a
                                   aria-disabled={false}
                                   aria-label="Create New Application"
-                                  className="css-zvpqlo-StyledButton-getColors eqrebog0"
+                                  className="css-zvpqlo-StyledButton-getColors e12ma6z0"
                                   onClick={[Function]}
                                   role="button"
                                   size="small"
@@ -1737,24 +1737,24 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                     size="small"
                                   >
                                     <Component
-                                      className="css-7ui8bl-ButtonLabel eqrebog1"
+                                      className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       priority="primary"
                                       size="small"
                                     >
                                       <span
-                                        className="css-7ui8bl-ButtonLabel eqrebog1"
+                                        className="css-7ui8bl-ButtonLabel e12ma6z1"
                                       >
                                         <Icon
                                           hasChildren={true}
                                           size="small"
                                         >
                                           <Component
-                                            className="css-1vdnsie-Icon eqrebog2"
+                                            className="css-1vdnsie-Icon e12ma6z2"
                                             hasChildren={true}
                                             size="small"
                                           >
                                             <span
-                                              className="css-1vdnsie-Icon eqrebog2"
+                                              className="css-1vdnsie-Icon e12ma6z2"
                                               size="small"
                                             >
                                               <StyledInlineSvg
@@ -1762,18 +1762,18 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                                 src="icon-circle-add"
                                               >
                                                 <InlineSvg
-                                                  className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                  className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                   size="12px"
                                                   src="icon-circle-add"
                                                 >
                                                   <StyledSvg
-                                                    className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                    className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                     height="12px"
                                                     viewBox={Object {}}
                                                     width="12px"
                                                   >
                                                     <svg
-                                                      className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                      className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                       height="12px"
                                                       viewBox={Object {}}
                                                       width="12px"
@@ -2193,7 +2193,7 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                                   >
                                                     <Component
                                                       aria-disabled={true}
-                                                      className="tip tip css-1ujzp8g-StyledButton-getColors eqrebog0"
+                                                      className="tip tip css-1ujzp8g-StyledButton-getColors e12ma6z0"
                                                       href={null}
                                                       onClick={[Function]}
                                                       role="button"
@@ -2203,7 +2203,7 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                                     >
                                                       <button
                                                         aria-disabled={true}
-                                                        className="tip tip css-1ujzp8g-StyledButton-getColors eqrebog0"
+                                                        className="tip tip css-1ujzp8g-StyledButton-getColors e12ma6z0"
                                                         href={null}
                                                         onClick={[Function]}
                                                         role="button"
@@ -2215,23 +2215,23 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                                           size="small"
                                                         >
                                                           <Component
-                                                            className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                            className="css-7ui8bl-ButtonLabel e12ma6z1"
                                                             size="small"
                                                           >
                                                             <span
-                                                              className="css-7ui8bl-ButtonLabel eqrebog1"
+                                                              className="css-7ui8bl-ButtonLabel e12ma6z1"
                                                             >
                                                               <Icon
                                                                 hasChildren={false}
                                                                 size="small"
                                                               >
                                                                 <Component
-                                                                  className="css-ljhpxy-Icon eqrebog2"
+                                                                  className="css-ljhpxy-Icon e12ma6z2"
                                                                   hasChildren={false}
                                                                   size="small"
                                                                 >
                                                                   <span
-                                                                    className="css-ljhpxy-Icon eqrebog2"
+                                                                    className="css-ljhpxy-Icon e12ma6z2"
                                                                     size="small"
                                                                   >
                                                                     <StyledInlineSvg
@@ -2239,18 +2239,18 @@ exports[`Organization Developer Settings without Owner permissions trash button 
                                                                       src="icon-trash"
                                                                     >
                                                                       <InlineSvg
-                                                                        className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                                        className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                                         size="12px"
                                                                         src="icon-trash"
                                                                       >
                                                                         <StyledSvg
-                                                                          className="css-1ov3rcq-StyledInlineSvg eqrebog3"
+                                                                          className="css-1ov3rcq-StyledInlineSvg e12ma6z3"
                                                                           height="12px"
                                                                           viewBox={Object {}}
                                                                           width="12px"
                                                                         >
                                                                           <svg
-                                                                            className="eqrebog3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
+                                                                            className="e12ma6z3 css-1jjmnki-StyledSvg-StyledInlineSvg e2idor0"
                                                                             height="12px"
                                                                             viewBox={Object {}}
                                                                             width="12px"
