@@ -77,9 +77,6 @@ if settings.SENTRY_USE_BIG_INTS:
                 return "NUMBER(19)"
             elif 'postgres' in engine:
                 return "bigserial"
-            # SQLite doesnt actually support bigints with auto incr
-            elif 'sqlite' in engine:
-                return 'integer'
             else:
                 raise NotImplemented
 

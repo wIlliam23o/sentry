@@ -201,8 +201,7 @@ travis-noop:
 .PHONY: travis-test-lint
 travis-test-lint: lint-python lint-js
 
-.PHONY: travis-test-sqlite travis-test-postgres travis-test-mysql travis-test-acceptance travis-test-snuba travis-test-symbolicator travis-test-js travis-test-cli travis-test-dist
-travis-test-sqlite: test-python
+.PHONY: travis-test-postgres travis-test-mysql travis-test-acceptance travis-test-snuba travis-test-symbolicator travis-test-js travis-test-cli travis-test-dist
 travis-test-postgres: test-python
 travis-test-mysql: test-python
 travis-test-acceptance: test-acceptance
@@ -218,14 +217,13 @@ travis-test-dist:
 	SENTRY_BUILD=$(TRAVIS_COMMIT) SENTRY_LIGHT_BUILD=0 python setup.py -q sdist bdist_wheel
 	@ls -lh dist/
 
-.PHONY: scan-python travis-scan-sqlite travis-scan-postgres travis-scan-mysql travis-scan-acceptance travis-scan-snuba travis-scan-symbolicator travis-scan-js travis-scan-cli travis-scan-dist travis-scan-lint
+.PHONY: scan-python travis-scan-postgres travis-scan-mysql travis-scan-acceptance travis-scan-snuba travis-scan-symbolicator travis-scan-js travis-scan-cli travis-scan-dist travis-scan-lint
 scan-python:
 	@echo "--> Running Python vulnerability scanner"
 	$(PIP) install safety
 	bin/scan
 	@echo ""
 
-travis-scan-sqlite: scan-python
 travis-scan-postgres: scan-python
 travis-scan-mysql: scan-python
 travis-scan-acceptance: travis-noop

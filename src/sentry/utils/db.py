@@ -32,17 +32,6 @@ def is_mysql(alias='default'):
     return 'mysql' in engine
 
 
-def is_sqlite(alias='default'):
-    engine = get_db_engine(alias)
-    return 'sqlite' in engine
-
-
-def has_charts(db):
-    if is_sqlite(db):
-        return False
-    return True
-
-
 def attach_foreignkey(objects, field, related=[], database=None):
     """
     Shortcut method which handles a pythonic LEFT OUTER JOIN.
