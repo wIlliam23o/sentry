@@ -124,19 +124,6 @@ matrix:
       before_script:
         - psql -c 'create database sentry;' -U postgres
 
-    # only the sqlite suite runs riak tests
-    - python: 2.7
-      name: 'Backend [SQLite]'
-      env: TEST_SUITE=sqlite DB=sqlite
-      services:
-        - memcached
-        - riak
-        - redis-server
-      install:
-        - python setup.py install_egg_info
-        - pip install -e ".[dev,tests,optional]"
-
-
     # XXX(markus): Remove after rust interfaces are done
     - python: 2.7
       name: 'Backend [Postgres] (Rust Interface Renormalization)'
@@ -150,22 +137,6 @@ matrix:
         - pip install -e ".[dev,tests,optional]"
       before_script:
         - psql -c 'create database sentry;' -U postgres
-
-    - python: 2.7
-      name: 'Backend [MySQL]'
-      env: TEST_SUITE=mysql DB=mysql
-      services:
-        - memcached
-        - mysql
-        - redis-server
-      install:
-        - python setup.py install_egg_info
-        - pip install -e ".[dev,tests,optional]"
-        # 1.3.14 causes test failures. Pinning to 1.3.13 for now, hopefully
-        # a later release resolves this.
-        - pip install mysqlclient==1.3.13
-      before_script:
-        - mysql -u root -e 'create database sentry;'
 
     - python: 2.7
       name: 'Acceptance'
