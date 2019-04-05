@@ -1464,7 +1464,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                       tabIndex={-1}
                                                     >
                                                       <StyledHeaderItem
-                                                        hasChanges={false}
                                                         hasSelected={false}
                                                         icon={
                                                           <StyledInlineSvg
@@ -1478,7 +1477,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                         onKeyDown={[Function]}
                                                         onMouseEnter={[Function]}
                                                         onMouseLeave={[Function]}
-                                                        onSubmit={[Function]}
                                                         style={
                                                           Object {
                                                             "outline": "none",
@@ -1488,7 +1486,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                       >
                                                         <ForwardRef
                                                           className="css-22y332-StyledHeaderItem e1gsuvme0"
-                                                          hasChanges={false}
                                                           hasSelected={false}
                                                           icon={
                                                             <StyledInlineSvg
@@ -1501,7 +1498,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                           onKeyDown={[Function]}
                                                           onMouseEnter={[Function]}
                                                           onMouseLeave={[Function]}
-                                                          onSubmit={[Function]}
                                                           style={
                                                             Object {
                                                               "outline": "none",
@@ -1512,7 +1508,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                           <HeaderItem
                                                             allowClear={true}
                                                             className="css-22y332-StyledHeaderItem e1gsuvme0"
-                                                            hasChanges={false}
                                                             hasSelected={false}
                                                             icon={
                                                               <StyledInlineSvg
@@ -1526,7 +1521,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                             onKeyDown={[Function]}
                                                             onMouseEnter={[Function]}
                                                             onMouseLeave={[Function]}
-                                                            onSubmit={[Function]}
                                                             style={
                                                               Object {
                                                                 "outline": "none",
@@ -1536,7 +1530,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                                           >
                                                             <StyledHeaderItem
                                                               className="css-22y332-StyledHeaderItem e1gsuvme0"
-                                                              hasChanges={false}
                                                               hasSelected={false}
                                                               innerRef={[Function]}
                                                               isOpen={false}
@@ -1733,7 +1726,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                     >
                                       <StyledHeaderItem
                                         allowClear={true}
-                                        hasChanges={false}
                                         hasSelected={false}
                                         icon={
                                           <StyledInlineSvg
@@ -1747,7 +1739,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                         onKeyDown={[Function]}
                                         onMouseEnter={[Function]}
                                         onMouseLeave={[Function]}
-                                        onSubmit={[Function]}
                                         style={
                                           Object {
                                             "outline": "none",
@@ -1758,7 +1749,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                         <ForwardRef
                                           allowClear={true}
                                           className="css-22y332-StyledHeaderItem e1u8612l1"
-                                          hasChanges={false}
                                           hasSelected={false}
                                           icon={
                                             <StyledInlineSvg
@@ -1771,7 +1761,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                           onKeyDown={[Function]}
                                           onMouseEnter={[Function]}
                                           onMouseLeave={[Function]}
-                                          onSubmit={[Function]}
                                           style={
                                             Object {
                                               "outline": "none",
@@ -1782,7 +1771,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                           <HeaderItem
                                             allowClear={true}
                                             className="css-22y332-StyledHeaderItem e1u8612l1"
-                                            hasChanges={false}
                                             hasSelected={false}
                                             icon={
                                               <StyledInlineSvg
@@ -1796,7 +1784,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                             onKeyDown={[Function]}
                                             onMouseEnter={[Function]}
                                             onMouseLeave={[Function]}
-                                            onSubmit={[Function]}
                                             style={
                                               Object {
                                                 "outline": "none",
@@ -1806,7 +1793,6 @@ exports[`OrganizationUserFeedback renders 1`] = `
                                           >
                                             <StyledHeaderItem
                                               className="css-22y332-StyledHeaderItem e1u8612l1"
-                                              hasChanges={false}
                                               hasSelected={false}
                                               innerRef={[Function]}
                                               isOpen={false}
