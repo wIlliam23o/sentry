@@ -32,7 +32,7 @@ env:
     - SENTRY_LIGHT_BUILD=1
     - SENTRY_SKIP_BACKEND_VALIDATION=1
     - SOUTH_TESTS_MIGRATE=1
-    - DJANGO_VERSION=">=1.6.11,<1.7"
+    - DJANGO_VERSION=">=1.8,<1.9"
     # node's version is pinned by .nvmrc and is autodetected by `nvm install`.
     - NODE_DIR="${HOME}/.nvm/versions/node/v$(< .nvmrc)"
     - YARN_VERSION="1.13.0"
@@ -86,34 +86,6 @@ matrix:
     - python: 2.7
       name: 'Backend [Postgres]'
       env: TEST_SUITE=postgres DB=postgres
-      services:
-        - memcached
-        - redis-server
-        - postgresql
-      install:
-        - python setup.py install_egg_info
-        - pip install -e ".[dev,tests,optional]"
-      before_script:
-        - psql -c 'create database sentry;' -U postgres
-
-    # django 1.8 compatibility
-    - python: 2.7
-      name: 'Backend [Postgres] (Django 1.8)'
-      env: TEST_SUITE=postgres DJANGO_VERSION=">=1.8,<1.9"
-      services:
-        - memcached
-        - redis-server
-        - postgresql
-      install:
-        - python setup.py install_egg_info
-        - pip install -e ".[dev,tests,optional]"
-      before_script:
-        - psql -c 'create database sentry;' -U postgres
-
-    # django 1.8 compatibility with migrations
-    - python: 2.7
-      name: 'Backend [Postgres] (Django 1.8, No migrations)'
-      env: TEST_SUITE=postgres DJANGO_VERSION=">=1.8,<1.9" SOUTH_TESTS_MIGRATE=0
       services:
         - memcached
         - redis-server
