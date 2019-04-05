@@ -96,7 +96,7 @@ class PushEventWebhookTest(APITestCase):
             name='baxterthehacker/public-repo',
         )
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             external_id="12345",
             provider='github',
@@ -150,7 +150,7 @@ class PushEventWebhookTest(APITestCase):
 
         options.set('github-app.webhook-secret', secret)
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             provider='github',
             external_id='12345',
@@ -227,7 +227,7 @@ class PushEventWebhookTest(APITestCase):
             name='baxterthehacker/public-repo',
         )
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             external_id="12345",
             provider='github',
@@ -245,7 +245,7 @@ class PushEventWebhookTest(APITestCase):
             name='another/repo',
         )
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             external_id="99",
             provider='github',
@@ -288,7 +288,7 @@ class PullRequestEventWebhook(APITestCase):
         secret = 'b3002c3e321d4b7880360d397db2ccfd'
         options.set('github-app.webhook-secret', secret)
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             provider='github',
             external_id='12345',
@@ -339,7 +339,7 @@ class PullRequestEventWebhook(APITestCase):
         secret = 'b3002c3e321d4b7880360d397db2ccfd'
         options.set('github-app.webhook-secret', secret)
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             provider='github',
             external_id='12345',
@@ -390,7 +390,7 @@ class PullRequestEventWebhook(APITestCase):
 
         options.set('github-app.webhook-secret', secret)
 
-        future_expires = datetime.now().replace(microsecond=0) + timedelta(minutes=5)
+        future_expires = datetime.now() + timedelta(minutes=5)
         integration = Integration.objects.create(
             provider='github',
             external_id='12345',

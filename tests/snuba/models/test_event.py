@@ -14,7 +14,7 @@ class SnubaEventTest(TestCase, SnubaTestCase):
         super(SnubaEventTest, self).setUp()
 
         self.event_id = 'f' * 32
-        self.now = datetime.utcnow().replace(microsecond=0) - timedelta(seconds=10)
+        self.now = datetime.utcnow() - timedelta(seconds=10)
         self.proj1 = self.create_project()
         self.proj1env1 = self.create_environment(project=self.proj1, name='test')
         self.proj1group1 = self.create_group(

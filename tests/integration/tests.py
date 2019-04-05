@@ -39,30 +39,6 @@ DEPENDENCY_TEST_DATA = {
             }
         }
     ),
-    "mysql": (
-        'DATABASES', 'MySQLdb', "database engine", "django.db.backends.mysql", {
-            'default': {
-                'ENGINE': "django.db.backends.mysql",
-                'NAME': 'test',
-                'USER': 'root',
-                'PASSWORD': '',
-                'HOST': 'localhost',
-                'PORT': ''
-            }
-        }
-    ),
-    "oracle": (
-        'DATABASES', 'cx_Oracle', "database engine", "django.db.backends.oracle", {
-            'default': {
-                'ENGINE': "django.db.backends.oracle",
-                'NAME': 'test',
-                'USER': 'root',
-                'PASSWORD': '',
-                'HOST': 'localhost',
-                'PORT': ''
-            }
-        }
-    ),
     "memcache": (
         'CACHES', 'memcache', "caching backend",
         "django.core.cache.backends.memcached.MemcachedCache", {
@@ -256,9 +232,7 @@ class SentryRemoteTest(TestCase):
             'bar') is not None
 
     def test_timestamp(self):
-        timestamp = timezone.now().replace(
-            microsecond=0, tzinfo=timezone.utc
-        ) - datetime.timedelta(hours=1)
+        timestamp = timezone.now().replace(tzinfo=timezone.utc) - datetime.timedelta(hours=1)
         kwargs = {u'message': 'hello', 'timestamp': float(timestamp.strftime('%s.%f'))}
         resp = self._postWithSignature(kwargs)
         assert resp.status_code == 200, resp.content
@@ -270,9 +244,7 @@ class SentryRemoteTest(TestCase):
         assert group.last_seen == timestamp
 
     def test_timestamp_as_iso(self):
-        timestamp = timezone.now().replace(
-            microsecond=0, tzinfo=timezone.utc
-        ) - datetime.timedelta(hours=1)
+        timestamp = timezone.now().replace(tzinfo=timezone.utc) - datetime.timedelta(hours=1)
         kwargs = {u'message': 'hello', 'timestamp': timestamp.strftime('%Y-%m-%dT%H:%M:%S.%f')}
         resp = self._postWithSignature(kwargs)
         assert resp.status_code == 200, resp.content
@@ -513,12 +485,6 @@ class DependencyTest(TestCase):
 
     def test_validate_fails_on_postgres(self):
         self.validate_dependency(*DEPENDENCY_TEST_DATA['postgresql'])
-
-    def test_validate_fails_on_mysql(self):
-        self.validate_dependency(*DEPENDENCY_TEST_DATA['mysql'])
-
-    def test_validate_fails_on_oracle(self):
-        self.validate_dependency(*DEPENDENCY_TEST_DATA['oracle'])
 
     def test_validate_fails_on_memcache(self):
         self.validate_dependency(*DEPENDENCY_TEST_DATA['memcache'])

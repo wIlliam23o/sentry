@@ -170,7 +170,7 @@ class GitHubAppsProviderTest(PluginTestCase):
         ten_hours = datetime.datetime.utcnow() + datetime.timedelta(hours=10)
         self.integration.metadata = {
             'access_token': 'old-access-token',
-            'expires_at': ten_hours.replace(microsecond=0).isoformat()
+            'expires_at': ten_hours.isoformat()
         }
         self.integration.save()
         responses.add(

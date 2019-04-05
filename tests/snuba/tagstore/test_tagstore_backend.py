@@ -39,7 +39,7 @@ class TagStorageTest(TestCase, SnubaTestCase):
         GroupHash.objects.create(project=self.proj1, group=self.proj1group1, hash=hash1)
         GroupHash.objects.create(project=self.proj1, group=self.proj1group2, hash=hash2)
 
-        self.now = timezone.now().replace(microsecond=0)
+        self.now = timezone.now()
         data = json.dumps([{
             'event_id': six.text_type(r) * 32,
             'primary_hash': hash1,

@@ -26,7 +26,7 @@ class GithubSearchTest(APITestCase):
                 'domain_name': 'github.com/test',
                 'account_type': 'Organization',
                 'access_token': '123456789',
-                'expires_at': future.replace(microsecond=0).isoformat(),
+                'expires_at': future.isoformat(),
             }
         )
         identity = Identity.objects.create(

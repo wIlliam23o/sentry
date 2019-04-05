@@ -65,15 +65,8 @@ class TestSentryAppAuthorizations(APITestCase):
         assert response.data['token'] == token.token
         assert response.data['refreshToken'] == token.refresh_token
 
-        expires_at = response.data['expiresAt'].replace(
-            second=0,
-            microsecond=0,
-        )
-
-        expected_expires_at = (datetime.now() + timedelta(hours=8)).replace(
-            second=0,
-            microsecond=0,
-        )
+        expires_at = response.data['expiresAt'].replace(second=0)
+        expected_expires_at = (datetime.now() + timedelta(hours=8)).replace(second=0)
 
         assert expires_at == expected_expires_at
 
